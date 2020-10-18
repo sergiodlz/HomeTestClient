@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   getProducts() {
     this.productService.getproducts().subscribe((data: Product[]) => {
       this.products = data;
-      console.log(this.products);
+      // console.log(this.products);
     });
   }
 }
